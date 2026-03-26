@@ -1,0 +1,9 @@
+import sys
+import importlib
+
+sys.path.append('.')
+
+import main
+importlib.reload(main)
+
+main.main()
